@@ -1,0 +1,22 @@
+*{padding: 0; margin: 0 ; box-sizing: border-box;}
+
+#griglia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.quadrato{
+    border: 1px solid black;
+    width: calc(100%/10);
+    aspect-ratio: 1/1;
+    font-size: 3rem;
+    text-align: center;
+}
+.active{
+    background-color: blue;
+}
+.bomb{
+    background-color: red;
+}
